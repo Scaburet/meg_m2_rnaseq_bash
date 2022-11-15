@@ -25,7 +25,6 @@ dependencies:
   - pip
   - pip:
     - bash_kernel
-    
   # For the M2 course:
   - fastqc
   - fastp
