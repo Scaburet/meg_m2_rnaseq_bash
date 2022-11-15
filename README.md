@@ -28,7 +28,4 @@ For more information, see the [extensive rep2docker documentation](https://repo2
 ## Materials
 
 Materials can be added anywhere to this repository, either at the top level or in subdirectory.
-
 When building the environment, the materials (and any other file) will be copied to the Docker image.
-
-In this example, there is a test notebook available: `example-notebook.ipynb`.
