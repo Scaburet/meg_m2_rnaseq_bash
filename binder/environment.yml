@@ -1,4 +1,6 @@
-name: plasmabio-template-bash
+name: meg_m2_rnaseq_bash
+# novel environnement created in 2022
+
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest priority
@@ -23,3 +25,13 @@ dependencies:
   - pip
   - pip:
     - bash_kernel
+    
+  # For the M2 course:
+  - fastqc
+  - fastp
+  - bowtie
+  - samtools
+  - multiqc
+  - qualimap
+  - bedtools
+  - htseq
